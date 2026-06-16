@@ -1,0 +1,46 @@
+INSTRUÇÕES - LEIA PRIMEIRO!
+
+1. Descompacte o arquivo
+
+2. Abra terminal neste diretório
+
+3. Compile:
+   
+   gcc -Wall -Wextra -O3 -std=c99 -lm *.c -o main
+
+4. Execute um algoritmo:
+   
+   ./main Instâncias/Instâncias/10000_aleatorio.txt 1
+
+---
+
+PARA EXECUTAR TODOS OS TESTES (78):
+
+bash run_all.sh
+
+---
+
+COMANDOS:
+
+# Compilar
+gcc -Wall -Wextra -O3 -std=c99 -lm *.c -o main
+
+# Testar um algoritmo (ID 1-13)
+./main Instâncias/Instâncias/10000_aleatorio.txt 1
+
+# Executar todos os 78 testes
+bash run_all.sh
+
+---
+
+ESTRUTURA:
+
+- *.c e *.h     → Código-fonte (13 algoritmos)
+- run_all.sh    → Script para executar todos os testes
+- README.md     → Documentação
+- Instâncias/   → 6 arquivos de dados
+- saida.txt     → Resultado da última execução
+
+---
+
+PRONTO! 🎉
